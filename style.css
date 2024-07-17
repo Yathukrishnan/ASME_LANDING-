@@ -1,0 +1,807 @@
+/* General body styling */
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  overflow-x: hidden;
+}
+.combined-container {
+  background-image: url('pic/main back.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 20px;
+}
+
+.nav1 {
+  margin-bottom: -60px;
+  margin-right: -20px; /* Adjusted margin */
+  height: 180px;
+}
+
+.nav {
+  margin-right: 0; /* Reset margin */
+  position: relative; /* Ensure positioning for overlay */
+}
+
+.custhead {
+  font-family: 'Montserrat', sans-serif; /* Font family */
+}
+
+.custom-navbar {
+  width: 100%; /* Full width */
+  margin-right: 0; /* Reset margin */
+}
+
+.custnav {
+  border-radius: 25px; /* Border radius */
+  box-shadow: 2px 3px 8px 3px rgba(0, 0, 0, 0.449) inset; /* Box shadow */
+  padding: 10px 20px; /* Padding */
+  display: inline-flex; /* Display inline-flex */
+  align-items: center; /* Align items */
+  justify-content: space-around; /* Justify content */
+  font-weight: 600; /* Font weight */
+  background-color: rgb(253, 251, 251); /* Background color */
+}
+
+.navalign {
+  width: 80%; /* Width */
+  display: flex; /* Display flex */
+  align-items: center; /* Align items */
+  justify-content: space-around; /* Justify content */
+}
+
+.navbar-brand {
+  margin-right: 30px; /* Margin right */
+}
+
+.navbar-nav .nav-link {
+  padding: 0 20px; /* Padding */
+}
+
+.standard-heading {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+
+.main-heading {
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+  font-size: 8.5em;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+
+.buttons1 {
+  margin-top: -40px;
+  margin-left: 30px;
+}
+
+/* Ensure Bootstrap classes are properly loaded and not overridden */
+.dark1 {
+  margin-top: 50px;
+  width: 120px;
+  margin-left: 10px;
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.dark2 {
+  margin-top: 50px;
+  margin-left: 60px;
+  width: 120px;
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.dark1:hover {
+  background-color: rgb(59, 59, 244) !important; /* Change background color to blue on hover */
+  color: white !important; /* Change text color to white on hover */
+}
+
+.dark2:hover {
+  background-color: rgb(59, 59, 244) !important; /* Change background color to blue on hover */
+  color: white !important; /* Change text color to white on hover */
+}
+
+.cont1 {
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.carousel {
+  margin-top: 50px;
+  width: 450px; /* Set the width of the carousel */
+  height: 600px; /* Set the height of the carousel */
+  overflow: hidden; /* Hide any overflow beyond the specified dimensions */
+}
+
+.carousel-img {
+  height:600px; /* Ensure the image fills the carousel height */
+  width: 450px; /* Ensure the image fills the carousel width */
+  object-fit: cover; /* Makes the image cover the carousel item area */
+  border-radius: 20px; /* Ensures the image itself has curved borders */
+}
+.container4 {
+  width: 450px; /* Set the width of the container */
+  height: 600px; /* Set the height of the container */
+  overflow: hidden; /* Hide any overflow beyond the specified dimensions */
+  border-radius: 20px; /* Ensures the container itself has curved borders */
+  margin-top: 70px; /* Adjust margin for positioning */
+  margin-left: 78px; /* Adjusted margin to move 2 cm to the left */
+}
+
+
+.asme-heading {
+  margin-top: -500px;
+  margin-left: 600px;
+  font-weight: bold;
+  color:brown; 
+}
+
+.random-text {
+  text-align: left;
+  margin-left: 600px;
+  margin-right: 50px;
+  margin-top: 40px;
+  font-weight: bold;
+  line-height: 2; /* Adjust line height for readability */
+}
+
+.video-container {
+  margin-top:300px;
+  width: 100%;
+  max-width: 1700px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.video-player {
+  margin-top:300px;
+  max-width: 70%; /* Adjust maximum width as needed */
+  max-height: calc(100vh - 250px); /* Limit maximum height to fit within viewport minus margin */
+  width: auto; /* Ensure video fills its container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Maintain aspect ratio and fit within container */
+  border-radius: 10px; /* Optional: Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for depth */
+}
+
+
+.video-player {
+  width: 100%; /* Ensure the video fills its container */
+  height: auto; /* Maintain aspect ratio */
+  transform: scale(1.2); /* Increase the size by 20% */
+  transform-origin: center; /* Center the scaling origin */
+  border-radius: 10px; /* Optional: Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for depth */
+}
+
+
+
+.circle-container {
+  margin-top: 80px;
+  width: 6.5cm; /* Diameter of the circle */
+  height: 6.5cm; /* Diameter of the circle */
+  overflow: hidden;
+}
+
+.vertical-line {
+  margin-top: 50px;
+  width: 4px; /* Width of the line */
+  height: 350px; /* Height of the line, adjust as needed */
+  background-color: black;
+  margin-left: 1cm; /* Space between the circle and the line */
+}
+
+.circle-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the circle area */
+}
+.gradient-background {
+  background: 
+  radial-gradient(circle at center, 
+    rgba(255, 204, 153, 0.6), /* Adjusted opacity */
+    rgba(255, 204, 153, 0.4) 30%, /* Adjusted opacity */
+    rgba(255, 204, 153, 0.2) 60%, /* Adjusted opacity */
+    rgba(255, 204, 153, 0) 100% /* Fully transparent */
+  ),
+  linear-gradient(to right, 
+    rgba(255, 204, 153, 0),
+    rgba(255, 204, 153, 0) 50%,
+    white 50%
+  ),
+  linear-gradient(to bottom, 
+    rgba(255, 204, 153, 0),
+    rgba(255, 204, 153, 0) 50%,
+    white 50%
+  );
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.faculty-advisor-heading {
+  font-size: 3em;
+  margin-top: -420px;
+  margin-left: 350px;
+  font-weight: bold;
+  color: black;
+}
+.circle-container{
+  margin-top: -50px;
+}
+
+.advisor-text {
+  font-weight: bold;
+  margin-left: 350px;
+  margin-top: 30px;
+  text-align: justify; /* Align the text properly */
+  line-height: 2; /* Adjust line height for better readability */
+}
+.vertical-line{
+  height: 400px;
+}
+
+.container {
+  margin: 30px;
+}
+
+.flip-card-container {
+  display: flex;
+  justify-content: center; /* Center align cards */
+  gap: 200px; /* Adjust the gap between cards */
+}
+
+.flip-card {
+  width: 320px;
+  height: 390px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background: linear-gradient(to right, rgba(3, 3, 48, 0.95), rgba(1, 1, 84, 0.8)); /* Apply gradient to both sides */
+  color: white; /* Set text color to white for better contrast */
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  padding: 20px;
+}
+
+.flip-card-back p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+
+.latest-news-heading {
+  color: #666; /* Grey color */
+  margin-top: 100px;
+  font-size: 4.5em;
+  margin-left: 350px;
+  margin-bottom: 120px;
+}
+
+
+.gallery-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.gallery {
+  display: flex;
+  animation: moveCards 70s linear infinite;
+  width: max-content;
+}
+
+.cards {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin: 50px;
+}
+
+.cards li {
+  flex: 0 0 auto;
+  width: 18rem;
+  padding: 0;
+  margin: 0 3rem 0 0;
+}
+
+.card {
+  width: 100%;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-text {
+  margin-bottom: 0;
+}
+
+@keyframes moveCards {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Add margin to the left side of the gallery */
+.gallery::before {
+  content: '';
+  display: block;
+  width: 50px; /* Adjust as needed */
+  flex: 0 0 auto;
+}
+
+
+
+
+.coming-soon-container {
+  width: 45cm;
+  height: 12cm;
+  background-color: #f0f0f0; /* Grey background color */
+  border-radius: 1cm; /* Curved edges using border-radius */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.coming-soon-container {
+  margin-top: 80px;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  width: 40cm;
+  height: 14cm;
+  position: relative; /* Positioning for overlay */
+  overflow: hidden; /* Hide overflow content */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  background-image: url('pic/main back.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Background dim effect */
+.coming-soon-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity for dim effect */
+}
+
+/* Content inside the container */
+.coming-soon-content {
+  position: relative;
+  z-index: 1; /* Ensure content appears above background */
+  color: white; /* Text color */
+  text-align: center;
+}
+
+/* Heading style */
+.coming-soon-heading {
+  font-size: 3em;
+  margin: 0;
+}
+.poster-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.poster-container img {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+}
+
+.poster-title {
+  margin-top: 20px;
+  margin-left: -90px;
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  font-size: 5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.dark5 {
+  position: absolute;
+  top: 600px; /* Adjust as needed */
+  left: 48%; /* Center horizontally */
+  transform: translateX(-50%);
+  width: 140px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+  transition: background-color 0.3s ease;
+  z-index: 1; /* Ensure button is above the image */
+}
+.dark5:hover {
+  background-color: rgb(59, 59, 244) !important; /* Change background color to blue on hover */
+  color: white !important; /* Change text color to white on hover */
+}
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  margin-top: -205px; /* Remove the space between poster and footer */
+  margin-bottom: -60px;
+}
+
+
+
+/* Mobile Phones (Portrait and Landscape) */
+@media only screen and (max-width: 600px) {
+  /* Add your mobile-specific styles here */
+  body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+  }
+  .navbar-toggler {
+    margin-right: 20px;
+  }
+  .standard-heading {
+    margin-top: 15px;
+    font-size: 0.8em;
+
+}
+.main-heading {
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+.btn-dark.dark1 {
+  width: 60px;
+  font-size: 9px;
+}
+.btn-dark.dark2 {
+  width: 60px;
+  font-size: 9px;
+}
+.container4{
+  margin: 0;
+}
+.carousel {
+  width: 300px; /* Set the width of the carousel */
+  height: 250px; /* Set the height of the carousel */
+  margin-left: 50px;
+}
+
+.carousel-img {
+  height:250px; /* Ensure the image fills the carousel height */
+  width: 300px; /* Ensure the image fills the carousel width */
+  align-items: center;
+}
+.asme-heading {
+margin-top: -190px;
+margin-left: 20px;
+font-size: 1em;
+}
+.random-text {
+  font-weight: bold;
+  line-height: 1; /* Adjust line height for readability */
+  margin-left: 20px;
+  font-size: 0.7em;
+}
+.video-player{
+  margin-top:100px ;
+}
+.video-container {
+  width: 95%;
+  margin-top: -40px;
+  margin-left: -15px;
+}
+
+.circle-container {
+  margin-top: -100px;
+  width: 2.5cm; /* Diameter of the circle */
+  height: 2.5cm; /* Diameter of the circle */
+  overflow: hidden;
+}
+
+.vertical-line {
+  margin-top: -40px;
+  width: 1.5px; /* Width of the line */
+  height: 200px; /* Height of the line, adjust as needed */
+  background-color: black;
+  margin-left: 0.3cm; /* Space between the circle and the line */
+}
+
+.faculty-advisor-heading {
+  margin-top: -230px;
+  font-size: 0.7em;
+  font-weight: bold;
+  color: black;
+  margin-left: 150px;
+}
+
+.advisor-text {
+  font-size: 0.5em;
+  font-weight: bold;
+  margin-left: 150px;
+  margin-top: 10px;
+  text-align: justify; /* Align the text properly */
+  line-height: 1; /* Adjust line height for better readability */
+}
+.flip-card-container {
+  flex-direction: column; /* Stack cards vertically on small screens */
+  align-items: center; /* Center align cards */
+}
+
+.flip-card {
+  width: 230px;
+  height: 270px;
+  margin-top: 40px;
+  margin-left: 80px;
+}
+
+.vision-card,
+.mission-card {
+  margin-left: 0; /* Remove specific margins */
+}
+.flip-card-back {
+  font-size: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%; /* Ensure this matches the height of your flip card */
+}
+
+.latest-news-heading {
+  color: #666; /* Grey color */
+  margin-top: 60px;
+  font-size: 1.6em;
+  margin-left: 80px;
+}
+
+.coming-soon-container {
+  width: 9cm;
+  height: 6cm;
+  margin-left:80px ;
+}
+.coming-soon-heading {
+  font-size: 1.5em;
+  margin: 0;
+}
+.card{
+  width: 4rem;
+  height: 2rem;
+}
+
+.poster-container img {
+  margin-top: -200px;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.poster-title {
+  margin-top: -100px;
+  margin-left: -50px;
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.btn-dark.dark5 {
+  font-size: 9px;
+width: 80px;
+margin-top: -120px;
+}
+.footer {
+margin-top: -450px;
+width: auto;
+}
+.asmepo{
+  margin-top: 80px;
+}
+
+}
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  /* Add your mobile-specific styles here */
+  body {
+    font-size: 14px;
+  }
+  
+  .standard-heading {
+    margin-top: 15px;
+    font-size: 1.5em;
+
+}
+.main-heading {
+  font-weight: bold;
+  font-size: 5.2em;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+
+.carousel {
+  width: 330px; /* Set the width of the carousel */
+  height: 350px; /* Set the height of the carousel */
+}
+
+.carousel-img {
+  height:350px; /* Ensure the image fills the carousel height */
+  width: 330px; /* Ensure the image fills the carousel width */
+}
+.asme-heading {
+ margin-left: 450px; 
+ font-size: 1.3em;
+}
+
+.random-text {
+  margin-left: 450px;
+  margin-right: 50px;
+  margin-top: 6px;
+  font-weight: bold;
+  line-height: 1; /* Adjust line height for readability */
+}
+
+.video-container {
+  width: 75%;
+  margin-top: -50px;
+}
+.dark4 {
+margin-right: auto;
+margin: 20px;
+margin-top: 90px;
+width: 90px;
+}
+
+.circle-container {
+  margin-top: 10px;
+  width: 4.5cm; /* Diameter of the circle */
+  height: 4.5cm; /* Diameter of the circle */
+  overflow: hidden;
+}
+
+.vertical-line {
+  margin-top: 10px;
+  width: 2px; /* Width of the line */
+  height: 250px; /* Height of the line, adjust as needed */
+  background-color: black;
+  margin-left: 0.5cm; /* Space between the circle and the line */
+}
+.faculty-advisor-heading {
+  margin-top: -300px;
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+  margin-left: 230px;
+}
+
+.advisor-text {
+  font-weight: bold;
+  margin-left: 250px;
+  margin-top: 9px;
+  text-align: justify; /* Align the text properly */
+  line-height: 1.5; /* Adjust line height for better readability */
+}
+.flip-card-container {
+  flex-direction: column; /* Stack cards vertically on small screens */
+  align-items: center; /* Center align cards */
+}
+
+.flip-card {
+  width: 150px;
+  height: 210px;
+  margin-top: 40px;
+}
+
+.vision-card,
+.mission-card {
+  margin-left: 0; /* Remove specific margins */
+}
+.latest-news-heading {
+  color: #666; /* Grey color */
+  margin-top: 60px;
+  font-size: 3em;
+  margin-left: 80px;
+}
+
+.coming-soon-container {
+  width: 10cm;
+  height: 8cm;
+  margin-left:300px ;
+  
+}
+.coming-soon-content {
+  position: relative;
+  z-index: 1; /* Ensure content appears above background */
+  color: white; /* Text color */
+  text-align: center;
+}
+
+.poster-container img {
+  margin-top: -70px;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.poster-title {
+  margin-top: 20px;
+  margin-left: -90px;
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  font-size: 4rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.dark5 {
+width: 100px;
+margin-top: -50px;
+}
+.footer {
+margin-top: -330px;
+}
+
+
+}
